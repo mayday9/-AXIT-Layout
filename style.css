@@ -135,6 +135,11 @@
     padding: 1.5rem 0;
 
 }
+.socialMedia__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .H2__headline{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
@@ -152,10 +157,16 @@
 }
 .section1__block{
     padding: 9.0625rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .tab__link{
     text-decoration: none;
 
+}
+.tabs{
+    margin-right: 6.25rem;
 }
 .tab{
     width: 6.875rem;
@@ -178,6 +189,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.textAndButton{
+    margin-right: 6.25rem;
+}
 .orange__button{
     width: 7.5rem;
     height: 2.75rem;
@@ -187,10 +201,66 @@
     text-align: center;
 }
 
-.orange__button__text{
+.orange__button__text {
     font-weight: normal;
     font-size: 1rem;
     color: white;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/*******************************Section1 End***********************/
+/*******************************Section2 ***********************/
+.section2{
+    background-color: #ffffff;
+}
+.section2__block{
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2__picture{
+    margin-right: 7.375rem;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title__circle{
+    margin-right: 1.875rem;
+    text-align: center;
+    margin-top: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.title__content{
+    width: 82%;
+}
+.circle__picture{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.H3__headline{
+    font-weight: bold;
+    color: #000000;
+}
+/****************************Section2 End***********************/
+/*******************************Section3***********************/
+.section3{
+    background-color: #f5f5f5;
+}
+.section3__block{
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3__content{
+    margin-right: 7.375rem;
+}
