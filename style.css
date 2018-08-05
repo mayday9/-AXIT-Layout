@@ -20,6 +20,8 @@
 
 .page{
     margin: 0;
+    padding: 0;
+    border: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     color: #a2a3a6;
@@ -166,7 +168,7 @@
     background-color: #f5f5f5;
 }
 .section1__block{
-    padding: 9.0625rem 0;
+    padding: 12% 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -200,7 +202,8 @@
     transform: translateY(-50%);
 }
 .textAndButton{
-    margin-right: 6.25rem;
+    /*margin-right: 6.25rem;*/
+    max-width: 46%;
 }
 .orange__button{
     width: 7.5rem;
@@ -229,13 +232,16 @@
     background-color: #ffffff;
 }
 .section2__block{
-    padding: 6.25rem 0;
+    padding: 8% 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .section2__picture{
     margin-right: 7.375rem;
+}
+.section2__content{
+    max-width: 37%;
 }
 .title{
     display: flex;
@@ -272,13 +278,14 @@
     background-color: #f5f5f5;
 }
 .section3__block{
-    padding: 6.25rem 0;
+    padding: 7% 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .section3__content{
-    margin-right: 7.375rem;
+    /*margin-right: 7.375rem;*/
+    max-width: 38%;
 }
 .section3__pic{
     max-width: 100%;
@@ -286,7 +293,7 @@
 /****************************Section3 End***********************/
 /*******************************Section4***********************/
 .section4__block{
-    padding: 6.625rem 0;
+    padding: 7% 0;
     text-align: center;
 }
 .sec__content{
