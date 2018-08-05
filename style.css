@@ -36,11 +36,15 @@
 /*********************Main Settings End***********************/
 /***************************Header***********************/
 /***************************Header Black Menu***********************/
-
+.header__content{
+    padding: 2.25rem 0;
+    display: flex;
+    justify-content: space-between;
+}
 .headerUpSide{
     /*background-image: url("images/backgroundImage.jpg");*/
     /*height: 44.375rem;*/
-    padding-top: 45%;
+    padding-top: 0%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,10 +52,10 @@
 }
 .nav{
     position: absolute;
-    top: 0;
+    z-index: 1;
     background-color: black;
     width: 100%;
-    height: 10%;
+    height: 4.375rem;
 }
 .headerMenu__logo{
     float: left;
@@ -89,8 +93,11 @@
 /***************************Header Black Menu End***********************/
 /***************************Header Middle Side Content***********************/
 .headerMiddleSide__content{
-    max-width: 47%;
+    max-width: 50%;
     padding-top: 7rem;
+}
+.headerMiddleSide__form{
+    max-width: 50%;
 }
 
 .mainHeadline{
@@ -149,6 +156,9 @@
 }
 .SM__content{
     margin: 0;
+}
+.sm__icons{
+    max-width: 100%;
 }
 /***************************Social media end***********************/
 /*******************************Section1***********************/
@@ -209,6 +219,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.cityPicture{
+    max-width: 100%;
+}
 
 /*******************************Section1 End***********************/
 /*******************************Section2 ***********************/
@@ -250,6 +263,9 @@
     font-weight: bold;
     color: #000000;
 }
+.section2__pic{
+    max-width: 100%;
+}
 /****************************Section2 End***********************/
 /*******************************Section3***********************/
 .section3{
@@ -263,6 +279,9 @@
 }
 .section3__content{
     margin-right: 7.375rem;
+}
+.section3__pic{
+    max-width: 100%;
 }
 /****************************Section3 End***********************/
 /*******************************Section4***********************/
