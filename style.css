@@ -264,3 +264,39 @@
 .section3__content{
     margin-right: 7.375rem;
 }
+/****************************Section3 End***********************/
+/*******************************Section4***********************/
+.section4__block{
+    padding: 6.625rem 0;
+    text-align: center;
+}
+.sec__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec__headline{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    color: #3b3b3b;
+}
+.sec__item{
+    text-align: center;
+
+    max-width: 31%;
+}
+.item__circle{
+    margin: 1.8125rem auto;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.item__pic{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
