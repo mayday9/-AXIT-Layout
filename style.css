@@ -44,8 +44,6 @@
     justify-content: space-between;
 }
 .headerUpSide{
-    /*background-image: url("images/backgroundImage.jpg");*/
-    /*height: 44.375rem;*/
     padding-top: 0%;
     background-position: center;
     background-repeat: no-repeat;
@@ -401,4 +399,92 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
+}
+/****************************Section5 End***********************/
+/*******************************Section6***********************/
+.section6 {
+    background-color: #ffffff;
+}
+.section6__block{
+    padding: 7% 0;
+    text-align: center;
+}
+.sec6__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.sec6__item {
+    text-align: center;
+    width: 23%;
+}
+.managerSays__text{
+    padding: 1rem;
+    text-align: left;
+}
+.avaAndName{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    text-align: left;
+}
+.managerSays{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ava{
+    max-width: 100%;
+    margin-right: 1rem;
+}
+.p_sect6{
+    margin: 0;
+}
+/****************************Section6 End***********************/
+/*******************************Section7***********************/
+.section7{
+    position: relative;
+    padding-top: 23%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section7__wrap{
+    position: absolute;
+    background-image: url("images/sec_7Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+
+}
+.sec7__headline{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.section7__block{
+    max-width: 100%;
+    padding: 7% 0;
+    text-align: center;
+}
+.sec7__downloadButton{
+    display: flex;
+    width: 8.4375rem;
+    height: 2.625rem;
+    border: 2.5px solid #cfcfce;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 0;
+}
+.sec7__wordDownload{
+    font-weight: normal;
+    font-size: 1rem;
 }
