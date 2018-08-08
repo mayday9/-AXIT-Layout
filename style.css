@@ -14,14 +14,16 @@
 }
 
 /*********************Main Settings***********************/
-.body{
+
+html{
     font-size: 100%;
 }
-
-.page{
+body{
     margin: 0;
     padding: 0;
     border: none;
+}
+.page{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     color: #a2a3a6;
@@ -429,6 +431,7 @@
     text-align: left;
 }
 .managerSays{
+    /*max-width: 100%;*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,6 +440,9 @@
     max-width: 100%;
     margin-right: 1rem;
 }
+.ava__pic{
+    max-width: 100%;
+}
 .p_sect6{
     margin: 0;
 }
@@ -444,7 +450,7 @@
 /*******************************Section7***********************/
 .section7{
     position: relative;
-    padding-top: 23%;
+    /*padding-top: 23%;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -487,4 +493,28 @@
 .sec7__wordDownload{
     font-weight: normal;
     font-size: 1rem;
+}
+/****************************Section7 End***********************/
+/*******************************Section***********************/
+.section8{
+    background-color: #ffffff;
+}
+.section8__block{
+    padding: 7% 0;
+    text-align: center;
+}
+
+/****************************Section8 End***********************/
+/******************************Footer***************************/
+.footer{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__block{
+    padding: 1% 0;
+    text-align: center;
+}
+.footerImg{
+    max-width: 100%;
 }
